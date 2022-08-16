@@ -7,4 +7,4 @@
   tasks:
   - name: my debug task
     debug:
-      msg: "I ran because of a webhooks"
+      msg: "I ran because of a webhook"
