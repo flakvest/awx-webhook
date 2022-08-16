@@ -1,11 +1,10 @@
 ---
-- name: a playbook run via a webhook
+- name: A playbook run via a webhook
   hosts: all
   gather_facts: false
   connection: local
   
-  task:
+  tasks:
   - name: my debug task
-  debug:
-    msg: "I ran because of a webhook"
-    
+    debug:
+      msg: "I ran because of a webhook"
